@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 def test_read_write_field():
     # python code
     class A(object):

@@ -27,7 +27,7 @@ def pca(X):
             V[:, i] /= S
 
     else:
-        # PCA -- 使用SVD方法
+        # PCA -- 使用SVD(奇异值分解)方法
         U, S, V = linalg.svd(X)
         V = V[:num_data]  # 只返回前num_data维的数据
 
